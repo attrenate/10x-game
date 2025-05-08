@@ -13,6 +13,16 @@ body header #clarification {
   font-family: "Bungee", sans-serif;
   font-weight: 400;
 }
+body header #again-btn {
+  width: 80px;
+  height: 50px;
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
 body header h1 {
   display: flex;
   justify-content: center;
@@ -22,4 +32,37 @@ body header h1 {
   color: white;
   font-weight: bolder;
   margin-top: 3rem;
+}
+body main #main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+body main #btn-wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+body main #btn-wrapper #num {
+  border-color: black;
+  width: 100px;
+  height: 50px;
+  background-color: inherit;
+}
+body main #btn-wrapper #check-btn {
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  border-color: black;
+}
+body main #p-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body main h2 {
+  color: white;
+  font-size: 2rem;
 }/*# sourceMappingURL=index.css.map */
